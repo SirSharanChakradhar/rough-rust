@@ -38,18 +38,31 @@
 // TODO: Define a function to calculate the area of a field.
 // This function should accept 2 arguments for length and width and return the calculated area as a float.
 
-fn calculate_area (length:f64, breadth:f64) -> f64{
- length * breadth
+// fn calculate_area (length:f64, breadth:f64) -> f64{
+//  length * breadth
        
-  }
+//   }
   
-  fn main() {
-      // TODO: Call your function with values for length and width and print the result
-   let rect_length: f64 = 5.0;
-   let rect_breadth: f64 = 6.0;
-   let rect_area= calculate_area(rect_length,rect_breadth);
-  println!("The area of the rectangle is: {} square units", rect_area); 
+//   fn main() {
+//       // TODO: Call your function with values for length and width and print the result
+//    let rect_length: f64 = 5.0;
+//    let rect_breadth: f64 = 6.0;
+//    let rect_area= calculate_area(rect_length,rect_breadth);
+//   println!("The area of the rectangle is: {} square units", rect_area); 
   
-  }
+//   }
+
+//----------------------------------------------------------------------------------------------------------------------
+//Fantastic progress, Space Explorer! Let's dive a bit deeper into Rust's variable scope and shadowing concepts. Your mission is to enhance our small software versioning system by using shadowing to declare a new version number. Provide the missing line of code to shadow the version number and increment it.
+
+fn main() {
+    let version = 1; // `version` is in scope for the entire function
+    
+    // TODO: Shadow the `version` variable by incrementing it and then print the new version in one line
+    let version = version + 1 ;
+    println!("The new version is: {}", version)
+
+}
+
 
 

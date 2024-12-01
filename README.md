@@ -18,7 +18,7 @@ All tutorials and exercises are inspired by resources from [CodeSignal Learn](ht
 - ✅ Ownership, Borrowing, and Lifetimes  
 - ✅ Error Handling and Result Types  
 - ✅ Data Structures and Collections  
-- ✅ Building CLI Apps  
+- ✅ Building CLI Apps  // maybe 🤔
 
 ## 🚀 Getting Started  
 1. Clone this repository:  
