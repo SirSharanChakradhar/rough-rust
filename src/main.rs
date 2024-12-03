@@ -55,14 +55,24 @@
 //----------------------------------------------------------------------------------------------------------------------
 //Fantastic progress, Space Explorer! Let's dive a bit deeper into Rust's variable scope and shadowing concepts. Your mission is to enhance our small software versioning system by using shadowing to declare a new version number. Provide the missing line of code to shadow the version number and increment it.
 
-fn main() {
-    let version = 1; // `version` is in scope for the entire function
+// fn main() {
+//     let version = 1; // `version` is in scope for the entire function
     
-    // TODO: Shadow the `version` variable by incrementing it and then print the new version in one line
-    let version = version + 1 ;
-    println!("The new version is: {}", version)
+//     // TODO: Shadow the `version` variable by incrementing it and then print the new version in one line
+//     let version = version + 1 ;
+//     println!("The new version is: {}", version)
 
-}
+// }
 
-
+//----------------------------------------------------------------------------------------------------------------------
+//Modify the given code to apply the correct mutable behavior of the version variable, ensuring it accurately reflects the updated version after the block ends. Your goal is to fix the scope issue so that the incremented version value persists and is correctly reported in the final output.
+// fn main() {
+//     let mut version = 1;
+//     {
+//        version= version + 1; // Incrementing the version number.
+//         println!("Updated to software version {}", version);
+//     }
+//     println!("Current software version {}", version); // Incorrect output due to the bug
+// }
+//----------------------------------------------------------------------------------------------------------------------
 
